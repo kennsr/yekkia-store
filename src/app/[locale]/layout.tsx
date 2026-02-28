@@ -63,6 +63,13 @@ export async function generateMetadata({
       locale: locale === "id" ? "id_ID" : "en_US",
       type: "website",
     },
+    alternates: {
+      canonical: "https://yekkia.store",
+      languages: {
+        id: "https://yekkia.store/id",
+        en: "https://yekkia.store/en",
+      },
+    },
   };
 }
 
@@ -77,8 +84,51 @@ export default async function RootLayout({
   setRequestLocale(locale);
   const messages = await getMessages({ locale });
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "YEKKIA Character Cookies",
+    image: "https://yekkia.store/og-image.jpg",
+    url: "https://yekkia.store",
+    telephone: "+6287775109697",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Bekasi",
+      addressRegion: "West Java",
+      addressCountry: "ID",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: -6.2383,
+      longitude: 106.9756,
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ],
+      opens: "09:00",
+      closes: "18:00",
+    },
+    sameAs: [
+      "https://www.instagram.com/yekkiacookies",
+      "https://www.tiktok.com/@yekkia.cookies",
+    ],
+  };
+
   return (
     <html lang={locale}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={`${nunito.variable} ${quicksand.variable}`}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
