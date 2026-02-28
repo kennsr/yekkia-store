@@ -1,20 +1,24 @@
 {
   "Hero": {
-    "title": "Add Magic to Every Bite 🍪",
-    "subtitle": "Handcrafted character cookies with royal icing by YEKKIA. Perfect for birthdays, events, and gifts in Bekasi & Jabodetabek.",
+    "title": "YEKKIA - Custom Character Cookies & Handcrafted Treats 🍪",
+    "subtitle": "Premium handcrafted character cookies with royal icing by YEKKIA. The best choice for birthdays, events, and unique gifts in Bekasi & Jabodetabek. Order today!",
     "explore": "Explore Designs",
     "order": "Order on WhatsApp"
   },
   "About": {
     "title": "Crafted with Love & Precision",
-    "description": "At YEKKIA, we believe that every event deserves a touch of sweetness. Based in Bekasi, our handcrafted character cookies are more than just treats—they are edible art. Every single cookie is carefully piped with royal icing by hand to ensure perfection in every detail. Our mission is to bring your favorite characters to life, making your celebrations truly unforgettable with designs that are almost too cute to eat!",
-    "story_title": "Why Our Cookies?",
-    "story_description": "It all started with a simple belief: cookies should look as good as they taste! We chose character cookies because they bring a unique sense of joy and personality to any occasion. Whether it's a child's favorite superhero or a delicate floral design for a wedding, the adorable looks of our cookies always spark a smile. Our customers often tell us their kids absolutely love them, and parents sometimes even feel a little guilty eating them because they look so lively and adorable!"
+    "description": "At YEKKIA, we believe that every event deserves a touch of sweetness. Based in Bekasi, our handcrafted character cookies are more than just treats—they are edible art. Every single cookie is carefully piped with royal icing by hand to ensure perfection in every detail. Our mission is to bring your favorite characters to life, making your celebrations truly unforgettable with designs that are almost too cute to eat! We prioritize both taste quality and aesthetic appeal in every single bite.",
+    "story_title": "Why Choose Our Cookies?",
+    "story_description": "It all started with a simple belief: cookies should look as good as they taste! We chose character cookies because they bring a unique sense of joy and personality to any occasion. Whether it's a child's favorite superhero or a delicate floral design for a wedding, the adorable looks of our cookies always spark a smile. Our customers often tell us their kids absolutely love them, and parents sometimes even feel a little guilty eating them because they look so lively and adorable! We are committed to providing the best experience for every customer."
   },
   "Process": {
     "title": "Quality Ingredients, Sweet Memories",
-    "description": "We don't compromise on quality. Our cookies are baked using a traditional recipe that features premium butter, sugar, flour, milk, and egg whites. The result? A classic, sweet, and comforting taste that melts in your mouth.",
-    "craftsmanship": "Each design is customized based on your specific request. We take the time to understand your vision, ensuring that the colors and shapes perfectly match your event's theme."
+    "description": "We don't compromise on quality. Our cookies are baked using a traditional recipe that features premium butter, sugar, flour, milk, and egg whites. The result? A classic, sweet, and comforting taste that melts in your mouth flawlessly. Every bite is crafted to bring joy to you and your loved ones.",
+    "craftsmanship": "Each design is customized based on your specific request. We take the time to understand your vision, ensuring that the colors and shapes perfectly match your event's theme. We believe that attention to detail is the key to creating an edible masterpiece.",
+    "ingredients_title": "Premium Ingredients",
+    "ingredients_desc": "We use only high-quality butter, selected sugar, premium flour, fresh milk, and the best egg whites to produce a cookie texture that is perfectly crunchy yet tender on the inside.",
+    "custom_title": "Tailored Themes",
+    "custom_desc": "From intricate cartoon characters to corporate logos or personalized messages, we can adjust every detail of color and shape to perfectly complement your special occasions."
   },
   "Booking": {
     "title": "Plan Your Sweet Celebration",
@@ -24,11 +28,13 @@
   "FAQ": {
     "title": "Frequently Asked Questions",
     "q1": "Can I request specific characters or shapes?",
-    "a1": "Absolutely! We specialize in custom designs. Just let us know the theme or character you have in mind.",
+    "a1": "Absolutely! We specialize in custom designs. Just let us know the theme or character you have in mind. From cartoon characters and superheroes to elegant floral patterns, we can turn your vision into delicious, handcrafted cookies.",
     "q2": "How long does it take to process an order?",
-    "a2": "On average, orders take 7 to 14 days. This allows us to give each cookie the attention it deserves.",
+    "a2": "On average, orders take 7 to 14 days. This allows us to give each cookie the attention it deserves. The process includes baking, manual royal icing decoration, and secure packaging to ensure everything arrives perfectly.",
     "q3": "How is the pricing determined?",
-    "a3": "Pricing depends on the complexity of the design and the quantity. Contact us on WhatsApp for a personalized quote!"
+    "a3": "Pricing depends on the complexity of the design and the quantity. Contact us on WhatsApp for a personalized quote! We provide transparent cost estimates based on the specific details of your request.",
+    "q4": "Is there a minimum order requirement?",
+    "a4": "Yes, for custom cookies, we typically have a minimum order quantity. However, we also offer special hamper sets for specific celebrations or holidays. Contact our team for more details on the available packages."
   },
   "Gallery": {
     "title": "Our Favorites",
@@ -61,9 +67,10 @@
     }
   },
   "Order": {
-    "title": "Ready to Order?",
-    "steps": "1. Choose Theme → 2. Get Quote → 3. Enjoy!",
-    "cta": "Order on WhatsApp"
+    "title": "Ready to Celebrate Your Sweet Moments?",
+    "steps": "1. Choose Theme → 2. Design Consultation → 3. Enjoy!",
+    "description": "Don't miss the chance to give a special surprise to your loved ones. Whether it's for a child's birthday, holiday hampers, or wedding souvenirs, YEKKIA's custom cookies are the perfect and unforgettable choice.",
+    "cta": "Order Now on WhatsApp"
   },
   "Testimonials": {
     "title": "What They Say",

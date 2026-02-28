@@ -7,6 +7,7 @@ export default function FAQSection() {
     { q: t("FAQ.q1"), a: t("FAQ.a1") },
     { q: t("FAQ.q2"), a: t("FAQ.a2") },
     { q: t("FAQ.q3"), a: t("FAQ.a3") },
+    { q: t("FAQ.q4"), a: t("FAQ.a4") },
   ];
 
   return (

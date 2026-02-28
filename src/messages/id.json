@@ -1,20 +1,24 @@
 {
   "Hero": {
-    "title": "Kue Karakter Lucu & Enak 🍪",
-    "subtitle": "Kue karakter dengan royal icing dari YEKKIA. Cocok untuk ulang tahun, acara, dan hadiah di Bekasi & Jabodetabek.",
+    "title": "YEKKIA - Kue Karakter & Cookies Custom di Bekasi 🍪",
+    "subtitle": "Kue karakter premium dengan royal icing dari YEKKIA. Pilihan terbaik untuk ulang tahun, acara, dan hadiah unik di Bekasi & Jabodetabek. Pesan custom favoritmu!",
     "explore": "Lihat Desain",
     "order": "Pesan via WhatsApp"
   },
   "About": {
     "title": "Dibuat Sepenuh Hati & Ketelitian",
-    "description": "Di YEKKIA, kami percaya setiap acara pantas diberikan sentuhan manis. Berpusat di Bekasi, kue karakter buatan tangan kami lebih dari sekadar camilan—ini adalah seni yang bisa dimakan. Setiap kue dihias dengan teliti menggunakan royal icing secara manual untuk memastikan kesempurnaan di setiap detailnya. Misi kami adalah menghidupkan karakter favoritmu, membuat perayaanmu tak terlupakan dengan desain yang saking lucunya sampai sayang untuk dimakan!",
-    "story_title": "Mengapa Kue Kami?",
-    "story_description": "Semua berawal dari keyakinan sederhana: kue harus terlihat seindah rasanya! Kami memilih kue karakter karena memberikan kegembiraan dan kepribadian unik di setiap momen. Baik itu pahlawan super favorit si kecil atau desain bunga yang elegan untuk pernikahan, tampilan menggemaskan kue kami selalu memicu senyum. Pelanggan kami sering bercerita bahwa anak-anak mereka sangat menyukainya, dan orang tua terkadang merasa 'berdosa' saat memakannya karena bentuknya yang begitu hidup dan manis!"
+    "description": "Di YEKKIA, kami percaya setiap acara pantas diberikan sentuhan manis. Berpusat di Bekasi, kue karakter buatan tangan kami lebih dari sekadar camilan—ini adalah seni yang bisa dimakan. Setiap kue dihias dengan teliti menggunakan royal icing secara manual untuk memastikan kesempurnaan di setiap detailnya. Misi kami adalah menghidupkan karakter favoritmu, membuat perayaanmu tak terlupakan dengan desain yang saking lucunya sampai sayang untuk dimakan! Kami mengutamakan kualitas rasa dan estetika dalam setiap gigitan.",
+    "story_title": "Mengapa Memilih Kue Kami?",
+    "story_description": "Semua berawal dari keyakinan sederhana: kue harus terlihat seindah rasanya! Kami memilih kue karakter karena memberikan kegembiraan dan kepribadian unik di setiap momen. Baik itu pahlawan super favorit si kecil atau desain bunga yang elegan untuk pernikahan, tampilan menggemaskan kue kami selalu memicu senyum. Pelanggan kami sering bercerita bahwa anak-anak mereka sangat menyukainya, dan orang tua terkadang merasa 'berdosa' saat memakannya karena bentuknya yang begitu hidup dan manis! Kami berkomitmen memberikan pengalaman terbaik bagi setiap pelanggan."
   },
   "Process": {
     "title": "Bahan Berkualitas, Kenangan Manis",
-    "description": "Kami tidak berkompromi soal kualitas. Kue kami dipanggang menggunakan resep tradisional dengan bahan-bahan premium seperti mentega, gula, tepung, susu, dan putih telur. Hasilnya? Rasa manis klasik yang nyaman dan lumer di mulut.",
-    "craftsmanship": "Setiap desain disesuaikan berdasarkan permintaan khususmu. Kami meluangkan waktu untuk memahami visimu, memastikan warna dan bentuk sesuai dengan tema acaramu."
+    "description": "Kami tidak berkompromi soal kualitas. Kue kami dipanggang menggunakan resep tradisional dengan bahan-bahan premium seperti mentega, gula, tepung, susu, dan putih telur. Hasilnya? Rasa manis klasik yang nyaman dan lumer di mulut. Setiap gigitan dirancang untuk membawa kebahagiaan bagi Anda dan orang-orang tersayang.",
+    "craftsmanship": "Setiap desain disesuaikan berdasarkan permintaan khusus Anda. Kami meluangkan waktu untuk memahami visi Anda, memastikan warna dan bentuk sesuai dengan tema acara Anda. Kami percaya bahwa detail adalah kunci dari sebuah mahakarya.",
+    "ingredients_title": "Bahan Premium",
+    "ingredients_desc": "Kami hanya menggunakan mentega berkualitas tinggi, gula pilihan, tepung terigu protein sedang, susu segar, dan putih telur terbaik untuk menghasilkan tekstur cookies yang renyah namun tetap lembut di dalam.",
+    "custom_title": "Tema Sesuai Harapan",
+    "custom_desc": "Dari bentuk karakter kartun yang rumit hingga logo perusahaan atau pesan khusus, kami bisa menyesuaikan setiap detail warna dan bentuk untuk menyempurnakan setiap momen spesial Anda."
   },
   "Booking": {
     "title": "Rencanakan Perayaan Manismu",
@@ -24,11 +28,13 @@
   "FAQ": {
     "title": "Pertanyaan yang Sering Diajukan",
     "q1": "Apakah saya bisa memesan karakter atau bentuk tertentu?",
-    "a1": "Tentu saja! Kami spesialis desain custom. Cukup beri tahu kami tema atau karakter yang kamu inginkan.",
+    "a1": "Tentu saja! Kami spesialis desain custom. Cukup beri tahu kami tema atau karakter yang kamu inginkan. Mulai dari karakter kartun, superhero, hingga desain bunga yang elegan, kami bisa mewujudkannya dalam bentuk cookies yang lezat.",
     "q2": "Berapa lama waktu yang dibutuhkan untuk memproses pesanan?",
-    "a2": "Rata-rata pesanan membutuhkan waktu 7 hingga 14 hari. Ini memungkinkan kami memberikan perhatian penuh pada setiap kue.",
+    "a2": "Rata-rata pesanan membutuhkan waktu 7 hingga 14 hari. Ini memungkinkan kami memberikan perhatian penuh pada setiap kue. Proses pengerjaan meliputi pemanggangan, dekorasi royal icing secara manual, hingga pengemasan yang aman.",
     "q3": "Bagaimana penentuan harganya?",
-    "a3": "Harga tergantung pada kerumitan desain dan jumlah pesanan. Hubungi kami melalui WhatsApp untuk penawaran harga yang sesuai!"
+    "a3": "Harga tergantung pada kerumitan desain dan jumlah pesanan. Hubungi kami melalui WhatsApp untuk penawaran harga yang sesuai! Kami akan memberikan estimasi biaya secara transparan berdasarkan detail permintaan Anda.",
+    "q4": "Apakah ada minimal pemesanan?",
+    "a4": "Ya, untuk cookies custom kami biasanya memiliki jumlah minimal pemesanan. Namun, kami juga sering menyediakan paket hampers khusus untuk perayaan tertentu. Hubungi admin kami untuk informasi lebih lanjut mengenai paket yang tersedia."
   },
   "Gallery": {
     "title": "Kue Favorit Kami",
@@ -61,9 +67,10 @@
     }
   },
   "Order": {
-    "title": "Siap Pesan?",
-    "steps": "1. Pilih Tema → 2. Konsultasi → 3. Nikmati!",
-    "cta": "Pesan via WhatsApp"
+    "title": "Siap Merayakan Momen Manis Anda?",
+    "steps": "1. Pilih Tema → 2. Konsultasi Desain → 3. Nikmati Momen!",
+    "description": "Jangan lewatkan kesempatan untuk memberikan kejutan spesial bagi orang tersayang. Baik untuk ulang tahun anak, hampers hari raya, atau souvenir pernikahan, cookies custom YEKKIA adalah pilihan yang sempurna dan tak terlupakan.",
+    "cta": "Pesan Sekarang via WhatsApp"
   },
   "Testimonials": {
     "title": "Kata Mereka",

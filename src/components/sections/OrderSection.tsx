@@ -8,6 +8,9 @@ export default function OrderSection() {
       <div className="order-box glass-panel">
         <h2>{t("Order.title")}</h2>
         <p>{t("Order.steps")}</p>
+        <p style={{ margin: "16px 0 32px", fontSize: "1.1rem", opacity: 0.9 }}>
+          {t("Order.description")}
+        </p>
         <a
           href="https://wa.me/6287775109697"
           target="_blank"

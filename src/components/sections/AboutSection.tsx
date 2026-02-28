@@ -30,6 +30,59 @@ export default function AboutSection() {
         <div className="about-content">
           <h2>{t("About.title")}</h2>
           <p>{t("About.description")}</p>
+
+          <div
+            className="about-features"
+            style={{
+              marginTop: "32px",
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: "20px",
+            }}
+          >
+            <div className="feature-item">
+              <h4
+                style={{ color: "var(--primary-color)", marginBottom: "8px" }}
+              >
+                100% Handcrafted
+              </h4>
+              <p style={{ fontSize: "0.9rem" }}>
+                Every detail is piped manually with passion and precision.
+              </p>
+            </div>
+            <div className="feature-item">
+              <h4
+                style={{ color: "var(--primary-color)", marginBottom: "8px" }}
+              >
+                Premium Quality
+              </h4>
+              <p style={{ fontSize: "0.9rem" }}>
+                We use only the finest ingredients for a classic, delicious
+                taste.
+              </p>
+            </div>
+            <div className="feature-item">
+              <h4
+                style={{ color: "var(--primary-color)", marginBottom: "8px" }}
+              >
+                Custom Designs
+              </h4>
+              <p style={{ fontSize: "0.9rem" }}>
+                Your favorite characters brought to life in edible form.
+              </p>
+            </div>
+            <div className="feature-item">
+              <h4
+                style={{ color: "var(--primary-color)", marginBottom: "8px" }}
+              >
+                Perfect for Gifts
+              </h4>
+              <p style={{ fontSize: "0.9rem" }}>
+                Unique souvenirs that make every celebration more memorable.
+              </p>
+            </div>
+          </div>
+
           <div style={{ marginTop: "32px" }}>
             <h3>{t("About.story_title")}</h3>
             <p>{t("About.story_description")}</p>

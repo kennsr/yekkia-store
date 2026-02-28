@@ -22,15 +22,15 @@ export default function ProcessSection() {
             <div className="icon-wrapper">
               <Scale size={32} />
             </div>
-            <h3>Premium Ingredients</h3>
-            <p>Butter, sugar, flour, milk, and high-quality egg whites.</p>
+            <h3>{t("Process.ingredients_title")}</h3>
+            <p>{t("Process.ingredients_desc")}</p>
           </div>
           <div className="process-card glass-panel">
             <div className="icon-wrapper">
               <SwatchBook size={32} />
             </div>
-            <h3>Custom Themes</h3>
-            <p>Shapes and colors tailored to your specific event needs.</p>
+            <h3>{t("Process.custom_title")}</h3>
+            <p>{t("Process.custom_desc")}</p>
           </div>
         </div>
       </div>
