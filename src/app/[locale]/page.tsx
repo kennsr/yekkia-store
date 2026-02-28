@@ -1,11 +1,11 @@
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
-import PlaceholderImage from "@/components/PlaceholderImage";
 import Logo from "@/components/Logo";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import "./page.css";
 
-export default function Home() {
+export default function HomePage() {
   const t = useTranslations();
 
   return (
@@ -58,25 +58,50 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-visual">
-          <PlaceholderImage
-            width="100%"
-            height={450}
-            text="Hero Cookie Image"
-            rounded
+          <div
             className="bounce-anim"
-          />
+            style={{
+              position: "relative",
+              width: "400px",
+              height: "400px",
+              borderRadius: "50%",
+              overflow: "hidden",
+              border: "8px solid white",
+              boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
+            }}
+          >
+            <Image
+              src="/assets/hero_cookie.jpg"
+              alt="Yekkia Hero Cookie"
+              fill
+              style={{ objectFit: "cover" }}
+              sizes="(max-width: 768px) 100vw, 400px"
+              priority
+            />
+          </div>
         </div>
       </section>
 
       <section id="about" className="about-section">
         <div className="about-inner">
           <div className="about-visual">
-            <PlaceholderImage
-              width="100%"
-              height={350}
-              text="YEKKIA Baking Process"
-              rounded
-            />
+            <div
+              style={{
+                position: "relative",
+                width: "100%",
+                height: "350px",
+                overflow: "hidden",
+                borderRadius: "16px",
+              }}
+            >
+              <Image
+                src="/assets/baking_process.jpg"
+                alt="YEKKIA Baking Process"
+                fill
+                style={{ objectFit: "cover" }}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
           </div>
           <div className="about-content">
             <h2>{t("About.title")}</h2>
@@ -93,13 +118,25 @@ export default function Home() {
         <div className="gallery-grid">
           {[1, 2, 3, 4, 5, 6].map((item) => (
             <div key={item} className="gallery-card glass-panel">
-              <PlaceholderImage
-                width="100%"
-                height={250}
-                text={`Cookie Design ${item}`}
-              />
+              <div
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "250px",
+                  overflow: "hidden",
+                  borderRadius: "16px",
+                }}
+              >
+                <Image
+                  src={`/gallery/tiktok_${item}.jpg`}
+                  alt={t(`Gallery.items.item${item}.alt`)}
+                  fill
+                  style={{ objectFit: "cover" }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 20vw"
+                />
+              </div>
               <div className="card-info">
-                <h3>Cute Character {item}</h3>
+                <h3>{t(`Gallery.items.item${item}.label`)}</h3>
               </div>
             </div>
           ))}

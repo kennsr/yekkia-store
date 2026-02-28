@@ -11,7 +11,33 @@
   },
   "Gallery": {
     "title": "Our Favorites",
-    "description": "A glimpse into our magical world of designs."
+    "description": "A glimpse into our magical world of designs.",
+    "items": {
+      "item1": {
+        "alt": "Custom character cookie with pastel royal icing",
+        "label": "Chinese New Year Edition"
+      },
+      "item2": {
+        "alt": "Handcrafted birthday cookie souvenir from Yekkia Bekasi",
+        "label": "Birthday Souvenir"
+      },
+      "item3": {
+        "alt": "Cute elegant design cookie with royal icing decorations",
+        "label": "Custom Birthday Cookies"
+      },
+      "item4": {
+        "alt": "Detailed royal icing cookie character art",
+        "label": "Cute Characters"
+      },
+      "item5": {
+        "alt": "Premium custom cookie hamper Jabodetabek",
+        "label": "Harry Potter Cookies"
+      },
+      "item6": {
+        "alt": "Detailed colorful custom cookie character",
+        "label": "Cute Characters"
+      }
+    }
   },
   "Order": {
     "title": "Ready to Order?",

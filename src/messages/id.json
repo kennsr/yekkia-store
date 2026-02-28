@@ -11,7 +11,33 @@
   },
   "Gallery": {
     "title": "Kue Favorit Kami",
-    "description": "Intip dunia ajaib desain YEKKIA."
+    "description": "Intip dunia ajaib desain YEKKIA.",
+    "items": {
+      "item1": {
+        "alt": "Kue karakter custom dengan royal icing bernuansa pastel",
+        "label": "Karakter Imlek"
+      },
+      "item2": {
+        "alt": "Kue souvenir ulang tahun buatan tangan dari Yekkia Bekasi",
+        "label": "Souvenir Ulang Tahun"
+      },
+      "item3": {
+        "alt": "Desain kue elegan dan lucu dengan dekorasi royal icing",
+        "label": "Kue Ulang Tahun Custom"
+      },
+      "item4": {
+        "alt": "Karakter seni kue royal icing yang detail",
+        "label": "Karakter Lucu"
+      },
+      "item5": {
+        "alt": "Hampers kue custom premium Jabodetabek",
+        "label": "Harry Potter Cookies"
+      },
+      "item6": {
+        "alt": "Karakter kue custom warna-warni yang detail",
+        "label": "Karakter Lucu"
+      }
+    }
   },
   "Order": {
     "title": "Siap Pesan?",
