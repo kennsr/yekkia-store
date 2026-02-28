@@ -23,10 +23,11 @@ export async function generateMetadata({
   const t = await getTranslations({ locale });
 
   return {
-    metadataBase: new URL("https://yekkia.com"),
+    metadataBase: new URL("https://yekkia.store"),
     title: t("Hero.title"),
     description: t("Hero.subtitle"),
     keywords: [
+      "yekkia store",
       "kue karakter",
       "bekasi",
       "jabodetabek",
@@ -39,7 +40,7 @@ export async function generateMetadata({
     openGraph: {
       title: t("Hero.title"),
       description: t("Hero.subtitle"),
-      url: "https://yekkia.com",
+      url: "https://yekkia.store",
       siteName: "YEKKIA",
       images: [
         {
