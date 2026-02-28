@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { Nunito, Quicksand } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages, getTranslations } from "next-intl/server";
+import {
+  getMessages,
+  getTranslations,
+  setRequestLocale,
+} from "next-intl/server";
 import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -15,6 +19,10 @@ const quicksand = Quicksand({
   variable: "--font-quicksand",
   subsets: ["latin"],
 });
+
+export function generateStaticParams() {
+  return [{ locale: "id" }, { locale: "en" }];
+}
 
 export async function generateMetadata({
   params,
@@ -66,12 +74,13 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
-  const messages = await getMessages();
+  setRequestLocale(locale);
+  const messages = await getMessages({ locale });
 
   return (
     <html lang={locale}>
       <body className={`${nunito.variable} ${quicksand.variable}`}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
           <Analytics />
           <SpeedInsights />

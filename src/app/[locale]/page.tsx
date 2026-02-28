@@ -1,30 +1,28 @@
-import dynamic from "next/dynamic";
 import Navbar from "@/components/sections/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
+import AboutSection from "@/components/sections/AboutSection";
+import ProcessSection from "@/components/sections/ProcessSection";
+import GallerySection from "@/components/sections/GallerySection";
+import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import FAQSection from "@/components/sections/FAQSection";
+import OrderSection from "@/components/sections/OrderSection";
+import Footer from "@/components/sections/Footer";
 import WhatsAppFAB from "@/components/sections/WhatsAppFAB";
+import { setRequestLocale } from "next-intl/server";
 import "./page.css";
 
-// Dynamic imports for below-the-fold sections — these won't be included
-// in the initial JS bundle, improving First Contentful Paint
-const AboutSection = dynamic(
-  () => import("@/components/sections/AboutSection"),
-);
-const ProcessSection = dynamic(
-  () => import("@/components/sections/ProcessSection"),
-);
-const GallerySection = dynamic(
-  () => import("@/components/sections/GallerySection"),
-);
-const TestimonialsSection = dynamic(
-  () => import("@/components/sections/TestimonialsSection"),
-);
-const FAQSection = dynamic(() => import("@/components/sections/FAQSection"));
-const OrderSection = dynamic(
-  () => import("@/components/sections/OrderSection"),
-);
-const Footer = dynamic(() => import("@/components/sections/Footer"));
+export function generateStaticParams() {
+  return [{ locale: "id" }, { locale: "en" }];
+}
 
-export default function HomePage() {
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
   return (
     <div className="page-wrapper">
       <div className="bg-blobs">
