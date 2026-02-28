@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nunito, Quicksand } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 
 const nunito = Nunito({
@@ -71,6 +72,7 @@ export default async function RootLayout({
       <body className={`${nunito.variable} ${quicksand.variable}`}>
         <NextIntlClientProvider messages={messages}>
           {children}
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
