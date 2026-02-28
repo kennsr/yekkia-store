@@ -6,15 +6,17 @@ export default function AboutSection() {
 
   return (
     <section id="about" className="about-section">
-      <div className="about-inner">
+      <div className="about-inner animate-fade-in-up delay-200">
         <div className="about-visual">
           <div
             style={{
               position: "relative",
               width: "100%",
-              height: "350px",
+              height: "100%",
+              minHeight: "400px",
               overflow: "hidden",
-              borderRadius: "16px",
+              borderRadius: "24px",
+              boxShadow: "var(--glass-shadow)",
             }}
           >
             <Image

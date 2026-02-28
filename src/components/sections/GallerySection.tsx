@@ -6,11 +6,11 @@ export default function GallerySection() {
 
   return (
     <section id="gallery" className="gallery-section">
-      <div className="gallery-header">
+      <div className="gallery-header animate-fade-in-up delay-100">
         <h2>{t("Gallery.title")}</h2>
         <p>{t("Gallery.description")}</p>
       </div>
-      <div className="gallery-grid">
+      <div className="gallery-grid animate-fade-in-up delay-200">
         {[1, 2, 3, 4, 5, 6].map((item) => (
           <div key={item} className="gallery-card glass-panel">
             <div

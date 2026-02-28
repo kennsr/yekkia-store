@@ -7,9 +7,11 @@ export default function HeroSection() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1 className="hero-title">{t("Hero.title")}</h1>
-        <p className="hero-subtitle">{t("Hero.subtitle")}</p>
-        <div className="hero-actions">
+        <h1 className="hero-title animate-fade-in-up">{t("Hero.title")}</h1>
+        <p className="hero-subtitle animate-fade-in-up delay-100">
+          {t("Hero.subtitle")}
+        </p>
+        <div className="hero-actions animate-fade-in-up delay-200">
           <a href="#gallery" className="primary-btn">
             {t("Hero.explore")}
           </a>
@@ -23,9 +25,9 @@ export default function HeroSection() {
           </a>
         </div>
       </div>
-      <div className="hero-visual">
+      <div className="hero-visual animate-fade-in-up delay-300">
         <div
-          className="bounce-anim"
+          className="float-anim"
           style={{
             position: "relative",
             width: "100%",
@@ -34,7 +36,8 @@ export default function HeroSection() {
             borderRadius: "50%",
             overflow: "hidden",
             border: "8px solid white",
-            boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
+            boxShadow:
+              "0 20px 40px rgba(0,0,0,0.1), 0 0 60px rgba(255, 183, 178, 0.4)",
           }}
         >
           <Image

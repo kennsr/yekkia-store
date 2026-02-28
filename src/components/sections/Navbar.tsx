@@ -6,7 +6,7 @@ export default function Navbar() {
   const t = useTranslations();
 
   return (
-    <nav className="navbar glass-panel">
+    <nav className="navbar glass-panel animate-fade-in-up-centered">
       <div className="logo">
         <Logo width={40} height={40} className="logo-img" />
         YEKKIA

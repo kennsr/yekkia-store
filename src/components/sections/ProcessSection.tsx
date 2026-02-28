@@ -6,7 +6,7 @@ export default function ProcessSection() {
 
   return (
     <section id="process" className="process-section">
-      <div className="section-container">
+      <div className="section-container animate-fade-in-up delay-300">
         <div className="section-header">
           <h2>{t("Process.title")}</h2>
           <p>{t("Process.description")}</p>
