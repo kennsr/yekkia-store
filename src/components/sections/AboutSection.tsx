@@ -30,6 +30,10 @@ export default function AboutSection() {
         <div className="about-content">
           <h2>{t("About.title")}</h2>
           <p>{t("About.description")}</p>
+          <div style={{ marginTop: "32px" }}>
+            <h3>{t("About.story_title")}</h3>
+            <p>{t("About.story_description")}</p>
+          </div>
         </div>
       </div>
     </section>

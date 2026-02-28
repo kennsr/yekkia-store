@@ -9,9 +9,16 @@ import "./page.css";
 const AboutSection = dynamic(
   () => import("@/components/sections/AboutSection"),
 );
+const ProcessSection = dynamic(
+  () => import("@/components/sections/ProcessSection"),
+);
 const GallerySection = dynamic(
   () => import("@/components/sections/GallerySection"),
 );
+const TestimonialsSection = dynamic(
+  () => import("@/components/sections/TestimonialsSection"),
+);
+const FAQSection = dynamic(() => import("@/components/sections/FAQSection"));
 const OrderSection = dynamic(
   () => import("@/components/sections/OrderSection"),
 );
@@ -29,7 +36,10 @@ export default function HomePage() {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <ProcessSection />
       <GallerySection />
+      <TestimonialsSection />
+      <FAQSection />
       <OrderSection />
       <Footer />
       <WhatsAppFAB />

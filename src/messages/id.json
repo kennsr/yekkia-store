@@ -7,7 +7,28 @@
   },
   "About": {
     "title": "Dibuat Sepenuh Hati & Ketelitian",
-    "description": "Di YEKKIA, kami percaya setiap acara pantas diberikan sentuhan manis. Berpusat di Bekasi, kue karakter kami dihias dengan teliti menggunakan royal icing untuk kesempurnaan setiap detailnya. Mari wujudkan karakter favoritmu!"
+    "description": "Di YEKKIA, kami percaya setiap acara pantas diberikan sentuhan manis. Berpusat di Bekasi, kue karakter buatan tangan kami lebih dari sekadar camilan—ini adalah seni yang bisa dimakan. Setiap kue dihias dengan teliti menggunakan royal icing secara manual untuk memastikan kesempurnaan di setiap detailnya. Misi kami adalah menghidupkan karakter favoritmu, membuat perayaanmu tak terlupakan dengan desain yang saking lucunya sampai sayang untuk dimakan!",
+    "story_title": "Mengapa Kue Kami?",
+    "story_description": "Semua berawal dari keyakinan sederhana: kue harus terlihat seindah rasanya! Kami memilih kue karakter karena memberikan kegembiraan dan kepribadian unik di setiap momen. Baik itu pahlawan super favorit si kecil atau desain bunga yang elegan untuk pernikahan, tampilan menggemaskan kue kami selalu memicu senyum. Pelanggan kami sering bercerita bahwa anak-anak mereka sangat menyukainya, dan orang tua terkadang merasa 'berdosa' saat memakannya karena bentuknya yang begitu hidup dan manis!"
+  },
+  "Process": {
+    "title": "Bahan Berkualitas, Kenangan Manis",
+    "description": "Kami tidak berkompromi soal kualitas. Kue kami dipanggang menggunakan resep tradisional dengan bahan-bahan premium seperti mentega, gula, tepung, susu, dan putih telur. Hasilnya? Rasa manis klasik yang nyaman dan lumer di mulut.",
+    "craftsmanship": "Setiap desain disesuaikan berdasarkan permintaan khususmu. Kami meluangkan waktu untuk memahami visimu, memastikan warna dan bentuk sesuai dengan tema acaramu."
+  },
+  "Booking": {
+    "title": "Rencanakan Perayaan Manismu",
+    "description": "Untuk menjaga standar detail yang tinggi, kami menyarankan pemesanan dilakukan 7 hingga 14 hari sebelumnya. Untuk pesanan kecil (di bawah 10 kue), kami mungkin bisa menyesuaikan waktu lebih cepat, namun lebih awal tetap lebih baik!",
+    "corporate": "Ya, kami melayani pesanan korporat dan pernikahan! Kami senang membuat set custom yang mencerminkan estetika brand atau hari spesialmu."
+  },
+  "FAQ": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "q1": "Apakah saya bisa memesan karakter atau bentuk tertentu?",
+    "a1": "Tentu saja! Kami spesialis desain custom. Cukup beri tahu kami tema atau karakter yang kamu inginkan.",
+    "q2": "Berapa lama waktu yang dibutuhkan untuk memproses pesanan?",
+    "a2": "Rata-rata pesanan membutuhkan waktu 7 hingga 14 hari. Ini memungkinkan kami memberikan perhatian penuh pada setiap kue.",
+    "q3": "Bagaimana penentuan harganya?",
+    "a3": "Harga tergantung pada kerumitan desain dan jumlah pesanan. Hubungi kami melalui WhatsApp untuk penawaran harga yang sesuai!"
   },
   "Gallery": {
     "title": "Kue Favorit Kami",
@@ -43,5 +64,11 @@
     "title": "Siap Pesan?",
     "steps": "1. Pilih Tema → 2. Konsultasi → 3. Nikmati!",
     "cta": "Pesan via WhatsApp"
+  },
+  "Testimonials": {
+    "title": "Kata Mereka",
+    "quote1": "Rasanya enak sekali dan tampilannya sangat lucu! Anak-anak saya sangat menyukainya.",
+    "quote2": "Saya merasa tidak tega memakan kuenya karena terlihat sangat hidup dan menggemaskan!",
+    "quote3": "Sangat cocok untuk hadiah! Detail pada royal icing-nya benar-benar memukau."
   }
 }

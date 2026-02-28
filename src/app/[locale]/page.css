@@ -643,6 +643,141 @@
   animation-delay: -10s;
 }
 
+/* New Sections Styles */
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  color: var(--primary);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 48px;
+  color: var(--primary);
+}
+
+/* Process Section */
+.process-section {
+  padding: 100px 0;
+  background-color: var(--white);
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.process-card {
+  padding: 40px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon-wrapper {
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 100px 0;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.testimonial-card {
+  padding: 32px;
+  font-style: italic;
+  position: relative;
+}
+
+.quote-icon {
+  color: var(--primary);
+  opacity: 0.3;
+  margin-bottom: 16px;
+}
+
+/* FAQ Section */
+.faq-section {
+  padding: 100px 0;
+  background-color: var(--white);
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-item {
+  padding: 24px 32px;
+}
+
+.faq-item h3 {
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.booking-info {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.booking-info h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.booking-info .highlight {
+  margin-top: 16px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+/* Responsive updates for new sections */
+@media (max-width: 900px) {
+  .process-grid,
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-header h2,
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .process-section,
+  .testimonials-section,
+  .faq-section {
+    padding: 60px 0;
+  }
+}
+
 @keyframes moveBlob {
   0% {
     transform: translate(0, 0) scale(1);

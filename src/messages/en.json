@@ -7,7 +7,28 @@
   },
   "About": {
     "title": "Crafted with Love & Precision",
-    "description": "At YEKKIA, we believe that every event deserves a touch of sweetness. Based in Bekasi, our character cookies are carefully piped with royal icing to ensure perfection in every detail. Let us bring your favorite characters to life!"
+    "description": "At YEKKIA, we believe that every event deserves a touch of sweetness. Based in Bekasi, our handcrafted character cookies are more than just treats—they are edible art. Every single cookie is carefully piped with royal icing by hand to ensure perfection in every detail. Our mission is to bring your favorite characters to life, making your celebrations truly unforgettable with designs that are almost too cute to eat!",
+    "story_title": "Why Our Cookies?",
+    "story_description": "It all started with a simple belief: cookies should look as good as they taste! We chose character cookies because they bring a unique sense of joy and personality to any occasion. Whether it's a child's favorite superhero or a delicate floral design for a wedding, the adorable looks of our cookies always spark a smile. Our customers often tell us their kids absolutely love them, and parents sometimes even feel a little guilty eating them because they look so lively and adorable!"
+  },
+  "Process": {
+    "title": "Quality Ingredients, Sweet Memories",
+    "description": "We don't compromise on quality. Our cookies are baked using a traditional recipe that features premium butter, sugar, flour, milk, and egg whites. The result? A classic, sweet, and comforting taste that melts in your mouth.",
+    "craftsmanship": "Each design is customized based on your specific request. We take the time to understand your vision, ensuring that the colors and shapes perfectly match your event's theme."
+  },
+  "Booking": {
+    "title": "Plan Your Sweet Celebration",
+    "description": "To maintain our high standards of detail, we recommend placing your orders 7 to 14 days in advance. For smaller orders (under 10 cookies), we may be able to accommodate shorter lead times, but earlier is always better!",
+    "corporate": "Yes, we handle corporate events and weddings! We love creating custom sets that reflect your brand or special day's aesthetic."
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "q1": "Can I request specific characters or shapes?",
+    "a1": "Absolutely! We specialize in custom designs. Just let us know the theme or character you have in mind.",
+    "q2": "How long does it take to process an order?",
+    "a2": "On average, orders take 7 to 14 days. This allows us to give each cookie the attention it deserves.",
+    "q3": "How is the pricing determined?",
+    "a3": "Pricing depends on the complexity of the design and the quantity. Contact us on WhatsApp for a personalized quote!"
   },
   "Gallery": {
     "title": "Our Favorites",
@@ -43,5 +64,11 @@
     "title": "Ready to Order?",
     "steps": "1. Choose Theme → 2. Get Quote → 3. Enjoy!",
     "cta": "Order on WhatsApp"
+  },
+  "Testimonials": {
+    "title": "What They Say",
+    "quote1": "It tastes so good and looks incredibly cute! My kids absolutely loved them.",
+    "quote2": "I actually felt bad eating the cookies because they looked so lively and adorable!",
+    "quote3": "Perfect for gifts! The details in the royal icing are just stunning."
   }
 }
