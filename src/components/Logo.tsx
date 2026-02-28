@@ -1,0 +1,71 @@
+export default function Logo({
+  className = "",
+  width = 32,
+  height = 32,
+}: {
+  className?: string;
+  width?: number;
+  height?: number;
+}) {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 100 100"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <circle
+        cx="50"
+        cy="50"
+        r="44"
+        fill="#F3C696"
+        stroke="#C88A58"
+        strokeWidth="4"
+      />
+      <path
+        d="M 12 45 Q 20 30 35 30 T 55 35 T 75 25 T 88 45 T 80 65 T 65 75 T 45 70 T 25 75 T 12 60 Z"
+        fill="#FFF9F2"
+      />
+      <circle cx="35" cy="55" r="4" fill="#4A3728" />
+      <circle cx="65" cy="55" r="4" fill="#4A3728" />
+      <path
+        d="M 45 62 Q 50 68 55 62"
+        stroke="#4A3728"
+        strokeWidth="4"
+        strokeLinecap="round"
+        fill="none"
+      />
+      <ellipse cx="25" cy="60" rx="5" ry="3" fill="#FFB7B2" />
+      <ellipse cx="75" cy="60" rx="5" ry="3" fill="#FFB7B2" />
+      <rect
+        x="30"
+        y="32"
+        width="10"
+        height="4"
+        rx="2"
+        transform="rotate(25 30 32)"
+        fill="#FFB7B2"
+      />
+      <rect
+        x="55"
+        y="30"
+        width="10"
+        height="4"
+        rx="2"
+        transform="rotate(-15 55 30)"
+        fill="#B5EAD7"
+      />
+      <rect
+        x="70"
+        y="42"
+        width="10"
+        height="4"
+        rx="2"
+        transform="rotate(45 70 42)"
+        fill="#FFD6A5"
+      />
+    </svg>
+  );
+}

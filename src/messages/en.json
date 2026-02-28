@@ -1,0 +1,21 @@
+{
+  "Hero": {
+    "title": "Add Magic to Every Bite 🍪",
+    "subtitle": "Handcrafted character cookies with royal icing by YEKKIA. Perfect for birthdays, events, and gifts in Bekasi & Jabodetabek.",
+    "explore": "Explore Designs",
+    "order": "Order on WhatsApp"
+  },
+  "About": {
+    "title": "Crafted with Love & Precision",
+    "description": "At YEKKIA, we believe that every event deserves a touch of sweetness. Based in Bekasi, our character cookies are carefully piped with royal icing to ensure perfection in every detail. Let us bring your favorite characters to life!"
+  },
+  "Gallery": {
+    "title": "Our Favorites",
+    "description": "A glimpse into our magical world of designs."
+  },
+  "Order": {
+    "title": "Ready to Order?",
+    "steps": "1. Choose Theme → 2. Get Quote → 3. Enjoy!",
+    "cta": "Order on WhatsApp"
+  }
+}

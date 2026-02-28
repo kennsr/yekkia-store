@@ -1,0 +1,21 @@
+{
+  "Hero": {
+    "title": "Kue Karakter Lucu & Enak 🍪",
+    "subtitle": "Kue karakter dengan royal icing dari YEKKIA. Cocok untuk ulang tahun, acara, dan hadiah di Bekasi & Jabodetabek.",
+    "explore": "Lihat Desain",
+    "order": "Pesan via WhatsApp"
+  },
+  "About": {
+    "title": "Dibuat Sepenuh Hati & Ketelitian",
+    "description": "Di YEKKIA, kami percaya setiap acara pantas diberikan sentuhan manis. Berpusat di Bekasi, kue karakter kami dihias dengan teliti menggunakan royal icing untuk kesempurnaan setiap detailnya. Mari wujudkan karakter favoritmu!"
+  },
+  "Gallery": {
+    "title": "Kue Favorit Kami",
+    "description": "Intip dunia ajaib desain YEKKIA."
+  },
+  "Order": {
+    "title": "Siap Pesan?",
+    "steps": "1. Pilih Tema → 2. Konsultasi → 3. Nikmati!",
+    "cta": "Pesan via WhatsApp"
+  }
+}
